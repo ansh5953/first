@@ -227,7 +227,7 @@ video {
 .cards {
     height: 90%;
     width: 26%;
-    transition: all ease 0.9s;
+    transition: transform 0.9s ease, opacity 0.9s ease;
     border-radius: 20px;
     background-size: cover;
     background-position: center;
@@ -280,6 +280,7 @@ video {
 
 .cards:hover {
     transform: rotate3d(-1, 1, 0, 20deg);
+    opacity: 1;
 }
 
 #green-div {
@@ -339,6 +340,7 @@ video {
 #page3 #colon2{
     right:10%;
     bottom:20%;
+ 
     
 
 }
