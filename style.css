@@ -220,13 +220,14 @@ video {
     align-items: center;
     gap: 65px;
     z-index: 10;
-    padding-bottom: 40px;;
+    padding-bottom: 40px;
+    ;
 }
 
 .cards {
     height: 90%;
     width: 26%;
-    transition:all ease 0.9s;
+    transition: all ease 0.9s;
     border-radius: 20px;
     background-size: cover;
     background-position: center;
@@ -253,11 +254,11 @@ video {
     padding-top: 140px;
     margin-bottom: 20px;
     opacity: 0;
-    transition:all ease 0.9s;
+    transition: all ease 0.9s;
 }
 
 .overlay h4 {
-    white-space:nowrap;
+    white-space: nowrap;
     color: #000;
     font-size: 30px;
     font-weight: 900;
@@ -267,38 +268,77 @@ video {
 .overlay p {
     text-align: auto;
     line-height: 30px;
-    margin-top: 20px;;
+    margin-top: 20px;
+    ;
     font-size: 18px;
     color: black;
 }
-.cards:hover .overlay{
+
+.cards:hover .overlay {
     opacity: 1;
 }
-.cards:hover{
-    transform: rotate3d(-1,1,0,20deg);
+
+.cards:hover {
+    transform: rotate3d(-1, 1, 0, 20deg);
 }
-#green-div{
+
+#green-div {
     position: relative;
-    height:33vh;
+    height: 33vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to left bottom,#4AAE2E,#A9DB22);
-  
+    background: linear-gradient(to left bottom, #4AAE2E, #A9DB22);
+
 }
+
 #green-div h4 {
-    width:50%;
+    width: 50%;
     line-height: 33px;
-   color: #000 ;
+    color: #000;
     font-size: 23px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 900;
 }
-#green-div img{
-    height:100%;
-    object-fit: cover;
-    width:14%;
 
+#green-div img {
+    height: 100%;
+    object-fit: cover;
+    width: 14%;
+}
+
+#page3 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3 p {
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 800;
+    width: 65%;
+}
+#page3 img{
+    position: absolute;
+    height:60px;
+
+}
+#page3 #colon1{
+    left:10%;
+    top:20%;
+
+}
+#page3 #colon2{
+    right:10%;
+    bottom:20%;
+    
 
 }
